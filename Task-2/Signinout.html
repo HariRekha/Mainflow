@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="home.html" class="site-title">Site Name</a>
+        </div>
+        <ul>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signinout.html">Signin</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>Signin</h1>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="grid">
+                <div class="grid-item">
+                    <h6>About Us</h6>
+                    <p>We are XYZ company, dedicated to providing the best service to our customers.</p>
+                </div>
+                <div class="grid-item">
+                    <h6>Contact Us</h6>
+                    <p>123 Main Street, Anytown, USA</p>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +1 234 567 8901</p>
+                </div>
+                <div class="grid-item">
+                    <h6>Follow Us</h6>
+                    <a href="https://www.facebook.com/" class="icon">F</a>
+                    <a href="https://www.instagram.com/" class="icon">I</a>
+                    <a href="https://www.twitter.com/" class="icon">T</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © <a href="https://your-website.com/">Your Website</a> <span id="year"></span>.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
