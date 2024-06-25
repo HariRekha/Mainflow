@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav className="nav">
             <div>
-                <a href="/gal" className="site-title">
+                <a href="/" className="site-title">
                     Gallery Images
                 </a>
             </div>
