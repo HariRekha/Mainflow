@@ -4,6 +4,9 @@ import Gallery from './pages/Gallery/Display.js';
 function App() {
   let component
   switch (window.location.pathname) {
+    case "/":
+      component=<Home/>
+      break
     case "/gal":
       component=<Gallery/>
       break
